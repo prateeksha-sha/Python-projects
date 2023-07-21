@@ -1,0 +1,214 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d8bfe98d-34fb-4c5c-b39d-df8b9ea847ce",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#1.Use descriptive variable names: Choose meaningful names that indicate the purpose of the variable. For instance, use names like age, name, grade, etc., instead of single-letter names like a, n, or g.\n",
+    "\n",
+    "#Use lowercase letters: Variable names should start with a lowercase letter. For multi-word variable names, use underscores to separate the words (snake_case). For example: age, student_name, school_grade.\n",
+    "\n",
+    "#Avoid reserved words: Do not use Python reserved words like if, else, while, for, etc., as variable names.\n",
+    "\n",
+    "#Be consistent: Stick to a naming convention throughout the codebase. If you start with snake_case, continue using it consistently for all variables.\n",
+    "\n",
+    "#Use meaningful abbreviations (if necessary): If abbreviations are used, make sure they are easily understandable. For example, num_books for the number of books.\n",
+    "\n",
+    "#Avoid starting with digits: Variable names should not start with a digit. For example, 5_books is not a valid variable name.\n",
+    "\n",
+    "#Avoid special characters: Stick to alphanumeric characters and underscores for variable names. Special characters like @, #, %, etc., should be avoided.\n",
+    "\n",
+    "#Use plural for collections: If a variable represents a collection (e.g., a list), use a plural form for the name. For example, books, pencils, friends.\n",
+    "\n",
+    "#Avoid excessive abbreviation: While it's good to keep variable names concise, avoid excessive abbreviation that may lead to confusion. For example, use school_grade instead of sch_gr.\n",
+    "\n",
+    "#Avoid single-letter variables (unless contextually appropriate): Using single-letter variables like a, b, c, etc., might be acceptable in some mathematical or loop contexts, but in general, use descriptive names."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "439475bb-9485-4700-8b02-27661b5788df",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#2.What will happen if we declare a restricted keyword as a variable?\n",
+    "# if we declare a restricted keyword as a variale it will show syntax error.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "e96c8afe-aaaa-4b13-a48b-a242b07e6beb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#3. \n",
+    "string_variable = \" Hey guys welcome back to my channel \""
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "f8941209-5ee4-4930-9013-4d7df9d399d8",
+   "metadata": {},
+   "source": [
+    "string_variable"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "4d9f94a6-ccaf-480e-91b2-f444a805b2ac",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(string_variable)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "4136cfe9-0dae-4976-8cb6-a1d6a8c833a6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "underscore_variable = \" _ \""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "5d38e0c7-c230-4a96-bbdd-8a01a8ea21b3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' _ '"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "underscore_variable"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "6bbef46c-7415-4160-ba2b-a957c24b8717",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#4. In python variables are dynamic in nature.\n",
+    "a = 12"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "e50eed80-02b4-4ef2-bd3b-f775bb676ed4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "12"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "840aac03-e62d-4cd1-85ec-a0bc42a099f0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = '12'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "fa8d870e-d075-49f7-b60e-0a156aef7a12",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3588a970-c93e-439a-9f1d-0374723539dc",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1559b30b-3757-4c12-bafb-6b755df9f686",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
